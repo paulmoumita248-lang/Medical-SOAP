@@ -1,0 +1,27 @@
+# Core Web Framework & Server
+fastapi==0.110.0
+uvicorn[standard]==0.28.0
+python-multipart==0.0.9
+pydantic==2.6.4
+pydantic-settings==2.2.1
+python-dotenv==1.0.1
+
+# AI & LLM Providers
+mistralai>=0.1.2
+
+# Speech-to-Text (Google Web Speech API — free, no key required)
+SpeechRecognition>=3.10.0
+
+# Audio Processing & Data
+pydub==0.25.1
+pandas==2.2.1
+
+# Vector DB & Embeddings (RAG)
+chromadb==0.4.24
+sentence-transformers==2.5.1
+
+# Testing & Evaluation
+pytest==8.1.1
+pytest-asyncio==0.23.5
+httpx>=0.25.2,<0.26.0
+jiwer==3.0.3
