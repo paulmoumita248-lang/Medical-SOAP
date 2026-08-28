@@ -1,0 +1,25 @@
+{
+  "case_id": "case_03_no_vitals",
+  "description": "Consultation with No Mentioned Vitals (Anti-Hallucination Benchmark)",
+  "utterances": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Hello, how can I help you today?"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 3.5,
+      "end_time": 8.0,
+      "text": "I've had mild joint stiffness in my right wrist for the past week after typing a lot."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 8.5,
+      "end_time": 13.0,
+      "text": "Sounds like repetitive strain or mild wrist tendonitis. Try rest, ergonomic wrist support, and ice packs."
+    }
+  ],
+  "expected_vitals": []
+}

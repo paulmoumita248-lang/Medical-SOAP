@@ -1,0 +1,49 @@
+{
+  "case_id": "case_01_respiratory",
+  "description": "Acute Viral Upper Respiratory Infection",
+  "utterances": [
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Good morning Mrs. Davis, what brings you in today?"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 3.5,
+      "end_time": 8.0,
+      "text": "Hi Doctor, I've had a persistent dry cough and low grade fever for the last three days."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 8.5,
+      "end_time": 12.0,
+      "text": "Any shortness of breath, chest pain, or difficulty swallowing?"
+    },
+    {
+      "speaker_id": "SPEAKER_01",
+      "start_time": 12.5,
+      "end_time": 16.0,
+      "text": "No shortness of breath or chest pain, but my throat feels a bit scratchy."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 16.5,
+      "end_time": 22.0,
+      "text": "Let's check your vitals. Temperature is 100.2 F and blood pressure is 118 over 76."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 22.5,
+      "end_time": 28.0,
+      "text": "Your lungs are clear bilaterally. Your throat shows mild pharyngeal redness without exudates."
+    },
+    {
+      "speaker_id": "SPEAKER_00",
+      "start_time": 28.5,
+      "end_time": 35.0,
+      "text": "This looks like an acute viral upper respiratory infection. I recommend acetaminophen 500mg as needed for fever and rest."
+    }
+  ],
+  "expected_vitals": ["100.2 F", "118/76"]
+}

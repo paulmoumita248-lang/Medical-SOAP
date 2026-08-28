@@ -565,10 +565,10 @@ Audio Upload $\rightarrow$ Diarized Transcript (`SPEAKER_00`/`01`) $\rightarrow$
 | Audio Ingestion & ASR Pipeline | `audio_ingestion.py`, `asr_service.py` (Whisper API) | Week 1 | P0 | Planned |
 | Multi-speaker medical audio transcription | `asr_service.py`, `diarization_service.py` | Week 1 | P0 | Planned |
 | Speaker Diarization (2-speaker split) | `diarization_service.py` (`SPEAKER_00`/`01`) | Week 1 | P0 | Planned |
-| LLM Synthesis Engine | `soap_synthesizer.py` (**Mistral API**), `prompt_templates.py` | Week 2 | P0 | Planned |
-| Few-shot prompt engineering | `prompt_templates.py` (Mistral clinical prompts) | Week 2 | P0 | Planned |
-| Structured JSON schema for SOAP note | `models/schemas.py`, Mistral JSON mode + Pydantic validation | Week 2 | P0 | Planned |
-| Anti-hallucination & clinical data filtering | `soap_synthesizer.py` (anti-hallucination rules) | Week 2 | P0 | Planned |
+| LLM Synthesis Engine | `soap_synthesizer.py` (**Mistral API**), `prompt_templates.py` | Week 2 | P0 | Completed |
+| Few-shot prompt engineering | `prompt_templates.py` (Mistral clinical prompts) | Week 2 | P0 | Completed |
+| Structured JSON schema for SOAP note | `models/schemas.py`, Mistral JSON mode + Pydantic validation | Week 2 | P0 | Completed |
+| Anti-hallucination & clinical data filtering | `soap_synthesizer.py` (anti-hallucination rules) | Week 2 | P0 | Completed |
 | ICD-10 Code Recommendation RAG | `vector_store.py` (ChromaDB), `icd10_rag_service.py` | Week 3 | P0 | Planned |
 | ICD-10 Vector Database | `vector_store.py` (ChromaDB index) | Week 3 | P0 | Planned |
 | Assessment section cross-referencing | `icd10_rag_service.py` | Week 3 | P0 | Planned |
